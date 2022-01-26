@@ -116,3 +116,26 @@ button:focus {
   margin: 10px;
   object-fit: fill;
 }
+
+li {
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+li:nth-child(even) {
+  background-color: green;
+  color: white;
+}
+
+li:nth-child(odd) {
+  background-color: red;
+  color: white;
+}
+
+li:first-child {
+  border-top: 2px solid black;
+}
+
+li:last-child {
+  border-bottom: 2px solid black;
+}
